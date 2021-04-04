@@ -58,4 +58,7 @@ Compile - ```iverilog -o and_bm and_bm.v and_bm_tb.v```\
 Run - ```vvp and_bm```\
 Simulate - ```gtkwave dump.vcd &```
                                                                                                                       
-
+### References
+1. https://www.chipverify.com/verilog/verilog-tutorial
+2. https://www.nandland.com/verilog/tutorials/tutorial-introduction-to-verilog-for-beginners.html
+3. https://technobyte.org/verilog-course-tutorials/
