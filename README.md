@@ -23,3 +23,6 @@ One day streak at learning verilog
 - Compile as ```iverilog -o counter counter_tb.c counter.v```
 - Run as ```vvp counter```
 - Simulate - ```gtkwave test.vcd &```
+<p align="center">
+  <img src="https://github.com/Pruthvi-Sanghavi/learning-verilog-in-a-day/blob/main/results/counter.png" height="200 px">
+</p>
