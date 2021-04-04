@@ -19,3 +19,7 @@ One day streak at learning verilog
 - Compile as ```iverilog -o ped posEdgeDetector.v```
 - Run as ```vvp ped```
 
+#### Third Program - Counter
+- Compile as ```iverilog -o counter counter_tb.c counter.v```
+- Run as ```vvp counter```
+- Simulate - ```gtkwave test.vcd &```
