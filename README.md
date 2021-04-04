@@ -6,10 +6,16 @@ One day streak at learning verilog
 ```sudo apt install iverilog```
 - I am using gedit as a text editor.
 
+#### Installing the Simulator
+```sudo apt install gtkwave```
+
 #### First Program - Hello World!
 - Compile as follows
 ```iverilog -o helloworld helloworld.v```
 - Run as follows
 ```vvp helloworld```
 
+#### Second Program - Positive Edge Detector
+- Compile as ```iverilog -o ped posEdgeDetector.v```
+- Run as ```vvp ped```
 
