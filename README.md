@@ -1,16 +1,16 @@
 # learning-verilog-in-a-day
-One day streak at learning verilog
+A one day streak at learning verilog
 
-#### Reflection
-I think I actually sort of missed the point of learning verilog. Verilog is used to simulate the logic gates in realtime without using any hardware. It also provides functionalities to visualize the signals.\
-Verilog is a HDL (Hardware Description knowledge). It is a language used for describing a digital system like a network switch or a microprocessor or a memory or a flip−flop. It means, by using a HDL we can describe any digital hardware at any level. Designs, which are described in HDL are independent of technology, very easy for designing and debugging, and are normally more useful than schematics, particularly for large circuits. [Reference](https://www.tutorialspoint.com/vlsi_design/vlsi_design_verilog_introduction.htm#:~:text=Verilog%20is%20a%20HARDWARE%20DESCRIPTION,digital%20hardware%20at%20any%20level.)
+#### [Introduction](https://www.tutorialspoint.com/vlsi_design/vlsi_design_verilog_introduction.htm#:~:text=Verilog%20is%20a%20HARDWARE%20DESCRIPTION,digital%20hardware%20at%20any%20level.)
+Verilog is used to simulate the logic gates in realtime without using any hardware. It also provides functionalities to visualize the signals.\
+Verilog is a HDL (Hardware Description knowledge). It is a language used for describing a digital system like a network switch or a microprocessor or a memory or a flip−flop. It means, by using a HDL we can describe any digital hardware at any level. Designs, which are described in HDL are independent of technology, very easy for designing and debugging, and are normally more useful than schematics, particularly for large circuits.
 
 Verilog is used to write digital logic.
 
 #### Logic and Test Bench
 In Verilog we can divide the program into two files: 
-1. A logic verilog file which contains only the logic.
-2. A [testbench](https://technobyte.org/testbench-in-verilog/) file which contains the values assigned to the original variables and is used for testing.
+1. Design Under Test (DUT): A DUT verilog file which contains only the logic.
+2. Test Bench ([TB](https://technobyte.org/testbench-in-verilog/)): A testbench file which contains the values assigned to the original variables and is used for testing.
 
 #### Abstractions of the verilog HDL
 
@@ -57,8 +57,23 @@ In Verilog we can divide the program into two files:
 Compile - ```iverilog -o and_bm and_bm.v and_bm_tb.v```\
 Run - ```vvp and_bm```\
 Simulate - ```gtkwave dump.vcd &```
+
+#### Fifth Program - The D Flipflop
+A D flipflop is used in FPGA to keep the history or the past states.
+
+<p align="center"><img src="https://github.com/Pruthvi-Sanghavi/learning-verilog-in-a-day/blob/main/d_flipflop/f_flipflop.jpg" height="200px"/></p>
+
+The main elements of D Flipflop are
+1. `D` --> Data (Input)
+2. `>` --> Clock (Input): clock is a square wave function repeating at some specific frequency. The unit is cycle per second or hertz.
+3. `Q` --> Output
+
+
+#### Reflection
+Initially, I think I actually sort of missed the point of learning verilog. 
                                                                                                                       
 ### References
 1. https://www.chipverify.com/verilog/verilog-tutorial
 2. https://www.nandland.com/verilog/tutorials/tutorial-introduction-to-verilog-for-beginners.html
 3. https://technobyte.org/verilog-course-tutorials/
+4. https://numato.com/kb/learning-fpga-verilog-beginners-guide-part-1-introduction/
