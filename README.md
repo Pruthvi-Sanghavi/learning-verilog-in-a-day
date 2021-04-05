@@ -7,6 +7,11 @@ Verilog is a HDL (Hardware Description knowledge). It is a language used for des
 
 Verilog is used to write digital logic.
 
+#### [Register Transfer Level](https://en.wikipedia.org/wiki/Register-transfer_level) 
+In digital circuit design, register-transfer level (RTL) is a design abstraction which models a synchronous digital circuit in terms of the flow of digital signals (data) between hardware registers, and the logical operations performed on those signals.
+
+Register-transfer-level abstraction is used in hardware description languages (HDLs) like Verilog and VHDL to create high-level representations of a circuit, from which lower-level representations and ultimately actual wiring can be derived. Design at the RTL level is typical practice in modern digital design.
+
 #### Logic and Test Bench
 In Verilog we can divide the program into two files: 
 1. Design Under Test (DUT): A DUT verilog file which contains only the logic.
@@ -70,7 +75,7 @@ The main elements of D Flipflop are
 
 
 #### Reflection
-Initially, I think I actually sort of missed the point of learning verilog. 
+I think I actually sort of missed the point of learning verilog. 
                                                                                                                       
 ### References
 1. https://www.chipverify.com/verilog/verilog-tutorial
